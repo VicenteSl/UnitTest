@@ -27,7 +27,7 @@ public class CalculadoraTest {
 		
 		//ejercicio, llamada codigo que vamos a probar
 		double resultadoEjecucion = miCalculadora.suma(1, 3);
-		double resutadoEsperado = 4;
+		double resutadoEsperado = 14;
 		
 		//verificacion, comparar resultadoEjecucion
 		assertThat(resultadoEjecucion, is(resutadoEsperado) );
